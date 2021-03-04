@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BrowserFingerPrint"
+    }
+  },
+  "defaultProject": "BrowserFingerPrint",
+  "cli": {
+    "analytics": "e5929313-0558-4ce0-9110-fe118d29cdd5"
+  }
 }
