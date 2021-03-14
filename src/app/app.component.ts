@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import FingerprintJS from '@fingerprintjs/fingerprintjs';
 import {HttpClient} from '@angular/common/http';
 import { DeviceDetectorService } from 'ngx-device-detector';
+import {machineId, machineIdSync} from 'node-machine-id';
 
 @Component({
   selector: 'app-root',
@@ -43,5 +44,6 @@ export class AppComponent implements OnInit{
     console.log('mobile: ' + isMobile);  // returns if the device is a mobile device (android / iPhone / windows-phone etc)
     console.log('tablet: ' + isTablet);  // returns if the device us a tablet (iPad etc)
     console.log('desktop: ' + isDesktopDevice); // returns if the app is running on a Desktop browser.
+
   }
 }
